@@ -1,0 +1,20 @@
+<table>
+    <tr>
+        <th>
+            First name
+        </th>
+        <th>
+            Last name
+        </th>
+       
+        <th>
+            Email
+        </th>
+    </tr>
+    <tr *ngFor="let dt of data">
+        <td>{{dt?.firstName}}</td>
+        <td>{{dt?.lastName}}</td>
+     
+        <td>{{dt?.email}}</td>
+    </tr>
+</table>
